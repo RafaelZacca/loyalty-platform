@@ -1,0 +1,38 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+dist/
+coverage/
+.vite/
+
+# .NET
+bin/
+obj/
+.vs/
+TestResults/
+
+# Java / Gradle
+.gradle/
+build/
+out/
+
+# Misc build artifacts
+tmp/
+temp/
